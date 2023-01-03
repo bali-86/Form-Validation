@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Form Validation</title>
+  </head>
+  <body>
+    <header>
+      <h1>Enter Your Info</h1>
+    </header>
+    <div class="container">
+        <form class="data-form">
+        <div class="form1">
+      <form action="">
+        <label for="name">Name</label>
+        <input type="text" id="name" required />
+    </div>
+    <div class="form1">
+        <label for="name">DOB</label>
+        <input type="date" id="dob" required/>
+    </div>
+    <div class="form1">
+        <label for="name">Start Date</label>
+        <input type="date" id="s-date" required />
+    </div>
+    <div class="form1">
+        <label for="name">End Date</label>
+        <input type="date" id="e-date" required/>
+    </div>
+    <div class="form1">
+        <label for="name">Upload File</label>
+        <input type="file" value="Submit" accept="application/pdf" id="file" />
+    </div>
+    <div class="form1">
+        <label for="name"></label>
+        <input type="submit" value="Submit" id="submit" />
+        <a id="link" download>download</a>
+    </div>
+      </form>
+    </div>
+</form>
+    <script src="script.js"></script>
+  </body>
+</html>
